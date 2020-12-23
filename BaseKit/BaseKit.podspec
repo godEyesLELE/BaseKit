@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BaseKit"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of BaseKit."
+  spec.summary      = "my BaseKit."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                    here is description.
                    DESC
 
   spec.homepage     = "https://github.com/godEyesLELE/BaseKit.git"
@@ -134,11 +135,10 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
     spec.frameworks = "UIKit"
-    spec.dependency "SnapKit", "~> 4.0.1"
-    spec.dependency "RxSwift", "~> 5.1.0"
-    spec.dependency "RxAlamofire", "~> 5.1.0"
-    spec.dependency "HandyJSON", "~> 5.0."
-    spec.dependency "Kingfisher", "~> 4.3.1"
-    spec.dependency "MJRefresh", "~> 3.4.1"
-
+    spec.dependency 'SnapKit', '~> 4.0.1'
+    spec.dependency 'RxSwift', '~> 5.1.0'
+    spec.dependency 'RxAlamofire', '~> 5.1.0'
+    spec.dependency 'HandyJSON', '~> 5.0.1'
+    spec.dependency 'Kingfisher', '~> 4.3.1'
+    spec.dependency 'MJRefresh', '~> 3.4.1'
 end

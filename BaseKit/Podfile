@@ -1,0 +1,14 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'BaseKit' do
+  use_frameworks!
+  project 'BaseKit.xcodeproj'
+  
+  pod 'SnapKit', '4.0.1'
+  pod 'RxSwift', '5.1.0'
+  pod 'RxAlamofire', '5.1.0'
+  pod 'HandyJSON', '5.0.1'
+  pod 'Kingfisher', '4.3.1'
+  pod 'MJRefresh', '~> 3.4.1'
+end
